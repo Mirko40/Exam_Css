@@ -193,6 +193,9 @@ color: #ffffff;
 font-weight: 400;
 font-family: "Aleo";
   }
+  .header__link:hover {
+    color: #FF6363;
+  }
 
 @media (max-width:767px) {
     body.lock {

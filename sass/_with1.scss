@@ -11,7 +11,7 @@
     margin: auto;
     display: flex;
    justify-content: center;
-  align-items:flex-end;
+ 
 
 .container {
     // border: 2px solid red;
@@ -20,9 +20,8 @@
     margin: 0px auto;
     display: flex;
     
-    justify-content:space-between;
-  align-items:center;
-
+    justify-content:flex-start;
+align-items: flex-end;
   .with--main{
     width: 49%;
     height: 370px;
@@ -54,7 +53,7 @@ font-family: 'Josefin Sans', sans-serif;
 text-transform: uppercase;
 }
 .main--text {
-    width: 80%;
+    width: 75%;
     font-size: 16px;
     line-height: 20px;
     font-weight: 200;
