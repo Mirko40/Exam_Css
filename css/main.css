@@ -10,7 +10,7 @@
 *:focus {
   outline: none !important; }
 
-.text--header {
+.travel__header {
   max-width: 1800px;
   width: 100%;
   height: 100vh;
@@ -101,6 +101,8 @@ button span {
   margin-bottom: 210px; }
 
 .container {
+  position: relative;
+  z-index: 3;
   max-width: 1111px;
   margin: 0px auto; }
 
@@ -226,3 +228,74 @@ button span {
     color: #ffffff;
     font-weight: 400;
     font-family: "Aleo"; } }
+
+.travel__why {
+  max-width: 1800px;
+  width: 100%;
+  height: 100vh;
+  max-height: 685px;
+  background-image: url(../img/Image1_why.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .travel__why .container {
+    width: 100%;
+    max-width: 1111px;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center; }
+    .travel__why .container .why__left {
+      width: 45%; }
+      .travel__why .container .why__left .left--head {
+        font-size: 36px;
+        line-height: 26px;
+        color: #ffffff;
+        font-weight: 400;
+        font-family: "Aleo";
+        margin-bottom: 60px; }
+      .travel__why .container .why__left .left--text1 {
+        font-size: 16px;
+        letter-spacing: 2px;
+        line-height: 25px;
+        font-weight: 200;
+        color: #e8e8e8;
+        font-family: "Josefin Sans"; }
+        .travel__why .container .why__left .left--text1 .left--text2 {
+          margin-top: 25px;
+          font-size: 16px;
+          letter-spacing: 2px;
+          line-height: 25px;
+          font-weight: 200;
+          color: #e8e8e8;
+          font-family: 'Josefin Sans', sans-serif; }
+      .travel__why .container .why__left .why__button {
+        background-color: #5474FD;
+        width: 225px;
+        height: 60px;
+        margin-top: 45px;
+        font-size: 16px;
+        letter-spacing: 1px;
+        line-height: 25px;
+        color: #ffffff;
+        font-weight: 400;
+        font-family: "Aleo";
+        text-align: center;
+        cursor: pointer;
+        text-transform: uppercase; }
+    .travel__why .container .why__right {
+      width: 45%;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center; }
+      .travel__why .container .why__right .image1 {
+        align-self: start; }
+      .travel__why .container .why__right .image2 {
+        align-self: flex-end; }
