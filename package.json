@@ -1,0 +1,24 @@
+{
+  "name": "exam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "node-sass --watch sass -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mirko40/Exam_Css.git"
+  },
+  "author": "Mirko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mirko40/Exam_Css/issues"
+  },
+  "homepage": "https://github.com/Mirko40/Exam_Css#readme",
+  "dependencies": {
+    "node-sass": "^6.0.1",
+    "sass-loader": "^12.3.0"
+  }
+}
