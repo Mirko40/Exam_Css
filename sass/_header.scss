@@ -15,7 +15,7 @@
     display: flex;
 flex-direction: column;
     justify-content: flex-end;
-  align-items::center;
+  align-items:center;
     
 }
 
@@ -44,12 +44,12 @@ margin-bottom:50px ;
 }
 form {
     width:650px;
-    margin-bottom:370px;
-        
+    margin-bottom:120px;
+    
     }
     input{
         height: 60px;
-    border:0;
+    
     font-size: 14px;
 letter-spacing: 3px;
 
@@ -60,6 +60,7 @@ text-align: center;
 
     }
     .search {
+       
     width: 75%;
     font-size: 14px;
     letter-spacing: 3px;
@@ -69,6 +70,7 @@ text-align: center;
     text-align: center;
     }
     .submit{
+        padding-bottom: 2px;
     width: 150px;
     height: 60px;
     border: 2px solid #ffffff;
@@ -95,6 +97,16 @@ text-align: center;
       button span {
         font-size: 16px;
         padding-left: 10px;
+        
+      }
+      .scroll{
+        font-size: 14px;
+        letter-spacing: 3px;
+        line-height: 26px;
+        color: #ffffff;
+        font-family: "Josefin Sans";
+        text-align: center;
+        margin-bottom:210px ;
       }
 
 .container {
